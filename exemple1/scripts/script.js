@@ -18,3 +18,5 @@ class Stagaire extends personne  {
 let E1 = new personne('Ouad','Taha')
 
 export let S1 =new Stagaire(E1.nom,E1.prenom,'DD102')
+
+let P = new personne('AHmad','douiry')
