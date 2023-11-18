@@ -22,4 +22,5 @@ const Person2 = {
     }
 };
 
-let Taha = Object.create(Person2);
+let object = Object.create(Person2);
+console.log(Object)

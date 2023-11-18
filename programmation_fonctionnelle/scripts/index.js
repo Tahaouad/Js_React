@@ -1,8 +1,7 @@
 const h = document.getElementById('hours');
 const m = document.getElementById('minutes');
 const s = document.getElementById('seconds');
-let id; // Ajout de la déclaration de la variable id
-
+let id;
 let initTime = { h: 11, m: 59, s: 52 };
 
 function showTime(time) {
@@ -12,7 +11,7 @@ function showTime(time) {
 }
 
 function increment(time) {
-    let myTime = { ...time };
+    let myTime = {...time};
     return function () {
         myTime.s++;
         if (myTime.s === 60) {
